@@ -99,7 +99,7 @@ async function unlinkServer() {
 	}
 	
 	document.getElementById("serverTitle").textContent="How to unlink:";
-	document.getElementById("serverInstructions").innerHTML = `The bot's username is <strong>${body.name}</strong><br><br>Follow this tutorial to unlink <a href="https://www.iorad.com/player/2100432/Discord---How-to-deauthorize-an-app" target="_blank">https://www.iorad.com/player/2100432/Discord---How-to-deauthorize-an-app</a>`;
+	document.getElementById("serverInstructions").innerHTML = `The bot's username is <strong>${body.name}</strong><br><br>We hate to see you go, but if you wish to unlink, visit here: <a href="https://www.iorad.com/player/2100432/Discord---How-to-deauthorize-an-app" target="_blank">https://www.iorad.com/player/2100432/Discord---How-to-deauthorize-an-app</a>`
 }
 
 // use header x-vc-user instead of Authorization, since firefox isn't going to support * origin for Authorization header soon.
